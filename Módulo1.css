@@ -1,0 +1,23 @@
+#titulo{
+    background-color: #89C781;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    background-color: #0000FF;
+    border-radius: 5px;
+}
+
+div {
+    background-color: #00FF00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+}
+
+img {
+    border: 5px solid red;
+    border-radius: 30px;
+    overflow: hidden;
+}

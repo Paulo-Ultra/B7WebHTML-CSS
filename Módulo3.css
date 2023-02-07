@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Indie Flower';
+}
+
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 20px;
+    border: 2px solid #FF0000
+}
+
+legend {
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"], textarea, select {
+    padding: 10px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    outline: 0;
+    margin-top: 5px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.termoslink {
+    color: #000;
+    text-decoration: none;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+}
+
+button:hover {
+    background-color: #DDD;
+}

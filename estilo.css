@@ -1,0 +1,100 @@
+/*  antes do flexbox
+div {
+    width: 50%;
+    height: 200px;
+    background-color: #F00;
+    margin: 10px;
+    float: left;
+} */
+
+/*  depois do flexbox 
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #DDD;
+    margin: 10px;
+}
+/*
+.div1 {
+    flex:1;
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div2 {
+    flex:1;
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div3 {
+    flex: 1;
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.div4 {
+    flex: 3;
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+/*.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDD;
+} */
+/*
+.container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-evenly;  alinha na direção exibida, se tiver horizontal alinha nesse sentido e vice-versa 
+    align-items: center; 
+    background-color: #DDD;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}  */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #DDD;
+    align-content: space-around;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+} 
+/*
+.div10 {
+    order: -1;
+}
+
+
+.div14 {
+    order: -1;
+}*/
